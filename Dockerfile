@@ -11,5 +11,3 @@ RUN     mvn dependency:resolve
 COPY    src .
 
 RUN     mvn clean verify
-
-EXPOSE 8080
