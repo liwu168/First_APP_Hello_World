@@ -1,5 +1,5 @@
 # This is first test on docker
-FROM    maven:3.3.1-jdk-17
+FROM    maven:3.6.0-jdk-8
 
 RUN     mkdir /docker
 
